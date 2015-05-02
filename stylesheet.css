@@ -2,15 +2,23 @@
 
 /* Header style */
 header {
-  background-color: grey;
+	margin-top: 4%;
+  background-color: black;
+  height: 200px;
+  width: 100%;
 }
 
 /* Body style */
 body {
-  background-color: white;
+  background-color: grey;
+  margin: auto;
 }
 
 /* Footer style */
 footer {
   background-color: black;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
 }
