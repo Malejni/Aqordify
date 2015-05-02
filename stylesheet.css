@@ -1,1 +1,16 @@
 /* USE ENGLISH! COMMENT YOUR WORK! Aqordify browser stylesheet */
+
+/* Header style */
+header {
+  background-color: grey;
+}
+
+/* Body style */
+body {
+  background-color: white;
+}
+
+/* Footer style */
+footer {
+  background-color: black;
+}
