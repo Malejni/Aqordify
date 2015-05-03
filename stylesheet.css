@@ -1,7 +1,5 @@
 /* USE ENGLISH! COMMENT YOUR WORK! Aqordify browser stylesheet */
 
-/* NOTE: NO HOVER EFFECTS AVAILABLE YET AS THERE ARE NO MENU OPTIONS FOR THIS IN THE HTML CODE! */
-
 /* Header style */
 
 header {
@@ -230,9 +228,27 @@ body {
 
 /* Footer style */
 footer {
-  background-color: black;
-  height: 100px;
-  width: 100%;
-  bottom: 0;
-  position: fixed;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	/*overflow: auto;*/ /* Overflow created a scroll list at the bottom of the footer/page. Removing this solved the problem. I recommend we don't use this attribute. */
+	background-color: gray;
+  }
+.footer	{ 
+	text-align: center;
+	position: relative;
+    left: 8px;
+	font-size: 10px;
+}
+.mail {
+	position: relative;
+	left: 42px;
+	font-size: 10px;
+}
+
+.ikon {
+    float: right;
+    width: 55px;
+    height: 90px;
+    margin: 5px;
 }
