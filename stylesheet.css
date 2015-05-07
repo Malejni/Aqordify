@@ -1,32 +1,18 @@
 /* USE ENGLISH! COMMENT YOUR WORK! Aqordify browser stylesheet */
 
-
-
-/* Body style */
-body {
-  margin:0px;
-  background-color:black;
-}
-
-#container {
-    position: relative;
-    margin: 0px;
-    background-color:black;
-}
-
 /* Header style */
-#header {
-    margin-top: 4%;
-    background-color: black;
-    height: 200px;
-    width: 100%;
+
+header {
+	margin-top: 4%;
+  background-color: black;
+  height: 200px;
+  width: 100%;
 }
 
-.navbar img {
-    height: 100px;
-    margin-left: 5%;
-    margin-top: 55px;
-    margin-bottom: 55px;
+header img {
+	height: 100px;
+	margin-left: 15%;
+	margin-top: 55px;
 }
 
 /* Main Navigation */
@@ -34,11 +20,11 @@ body {
 
     position:relative;
 
-    width: 50%;
+    width: 60%;
 
     /*margin:0 auto; */
 
-    margin-top:75px;
+    margin-top:80px;
 	
 	float: right;
 
@@ -51,7 +37,6 @@ ul#navigation {
     position:relative;
 
     float:left;
-    font-family: sans-serif;
 
 }
 
@@ -60,6 +45,8 @@ ul#navigation li {
     display:inline;
 
     font-size:18px;
+
+    font-weight:bold;
 
     margin:0;
 
@@ -79,9 +66,9 @@ ul#navigation li a {
 
     padding:10px 25px;
 
-    color: white;
+    color: #ccb549;
 
-    text-shadow:0px 1px 1px black;
+    text-shadow:0px 1px 1px #92771d;
 
     text-decoration:none;
 
@@ -110,7 +97,7 @@ ul#navigation li a {
 ul#navigation li a:hover {
 
     background: #2a2a2a;
-    color: white;
+    color: #ccb549;
 
 }
 ul#navigation li a.first {
@@ -213,9 +200,9 @@ ul#navigation ul li {
 
     padding:7px 15px;
 
-    color:white;
+    color:#ccb549;
 
-    text-shadow:0px 1px 1px black;
+    text-shadow:0px 1px 1px #92771d;
 
     text-decoration:none;
 
@@ -233,85 +220,35 @@ ul#navigation ul li {
 
 
 
-#content {
-    background-color: black;
-    color:silver; 
-    font: Sans-Serif;
-
+/* Body style */
+body {
+  background-color: grey;
+  margin: auto;
 }
 
-.front img{
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-
-}
-
-h1 {
-  position: absolute;
-  float: left;
-  display: inline;
-  bottom: 10px;
-  left: 10px;
-  max-width: 30%;
-  background: rgba(0, 0, 0, 0.75);
-  padding: 10px 10px;
-  color: white;
-  margin: 0;
-  font: 20px Sans-Serif;
-
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-}
-
-.opp h1 {
-  background: rgba(255, 255, 255, 0.75);
-  color: black;
-}
-
-ul{
-    list-style: none;
-    padding:0% 0% 0% 0%;
-    line-height: 200%;
-}
 /* Footer style */
-#footer {
+footer {
 	width: 100%;
-    height: 100px;
+	max-width: 1000px;
+	margin: auto;
 	/*overflow: auto;*/ /* Overflow created a scroll list at the bottom of the footer/page. Removing this solved the problem. I recommend we don't use this attribute. */
-	background-color:silver;
-    padding-top: 0.5%;
-    font-family: sans-serif;
-    text-shadow:0px 1px 1px black;
-
+	background-color: gray;
   }
-.update	{ 
+.footer	{ 
 	text-align: center;
 	position: relative;
+    left: 8px;
+	font-size: 10px;
+}
+.mail {
+	position: relative;
+	left: 42px;
 	font-size: 10px;
 }
 
-#mailbox {
-    width: 500px;
-    float: left;
-    clear: right;
-    padding-left: 20px;
-
-}
-
-.mail {
-	position: relative;
-    float: left;
-    clear: right;
-	font-size: 15px;
-}
-
-a{
-    color: black;
-}
-
-#ikonbox {
-    width: 250px;
+.ikon {
     float: right;
+    width: 55px;
+    height: 90px;
+    margin: 5px;
 }
-
