@@ -1,0 +1,90 @@
+
+	   <div class="navbar"><img src="img/gold2.jpeg" alt="Aqordo Logo">
+	   
+	   <nav id="nav">
+
+        <ul id="navigation">
+
+            <li><a href="#" class="first">Hem</a></li>
+
+            <li><a href="#">Presentation <!--&raquo;--></a>
+
+            <!-- DROPDOWN MENU WITH EXAMPLES <ul>
+
+                <li><a href="#">Web Development</a></li>
+
+                <li><a href="#">Logo Design</a></li>
+
+                <li><a href="#">Identity & Branding &raquo;</a>
+
+                    <ul>
+
+                        <li><a href="#">Business Cards</a></li>
+
+                        <li><a href="#">Brochures</a></li>
+
+                        <li><a href="#">Envelopes</a></li>
+
+                        <li><a href="#">Flyers</a></li>
+
+                    </ul>                 
+
+                </li>                 
+
+                <li><a href="#">Wordpress</a></li>
+
+            </ul>
+
+        </li>
+		-->
+
+            <li><a href="#">Produkter <!--&raquo;--></a>
+
+            <!-- MORE DROPDOWN MENU EXAMPLES TO USE 
+			
+			<ul>
+
+                <li><a href="#">Graphic Design</a></li>
+
+                <li><a href="#">Photography</a></li>
+
+                <li><a href="#">Architecture</a></li>
+
+                <li><a href="#">Calligraphy</a></li>
+
+                <li><a href="#">Film &raquo;</a>
+
+                    <ul>
+
+                        <li><a href="#">John Carter</a></li>
+
+                        <li><a href="#">The Avengers</a></li>
+
+                        <li><a href="#">The Amazing SpiderMan</a></li>
+
+                        <li><a href="#">Madagascar 3</a></li>
+
+                    </ul>                     
+
+                </li>
+
+                <li><a href="#">Graffity </a></li>
+
+            </ul>             
+
+        </li>
+		
+		-->
+
+                <li><a href="#">Tjänster</a></li>
+
+                <li><a href="#">Om oss</a></li>
+
+                <li><a href="#" class="last">Kontakta</a></li>
+
+            </ul>
+
+        </nav>
+</div>
+
+</div>
