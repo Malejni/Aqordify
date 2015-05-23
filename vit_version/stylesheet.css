@@ -444,7 +444,8 @@ src: url("fonts/Kontrapunkt_Bold.otf") format("opentype");
         .text_box img {
             height: 150px;
             display: block;
-            float: center;
+            margin-right: auto;
+	    margin-left: auto;
         }
 
         .text_box a{
