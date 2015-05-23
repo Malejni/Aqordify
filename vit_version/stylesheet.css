@@ -689,5 +689,14 @@ font-size: 10px;
 #content_bottom_box_3 img{
     width: 100%;
     height:75%;
-
+}
+#text_box 
+{
+font-size: 12px;
+}
+.content_img
+{
+opacity:0.1;
+width:100%;
+}
 }
