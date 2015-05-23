@@ -699,4 +699,33 @@ font-size: 12px;
 opacity:0.1;
 width:100%;
 }
+
+#introbox_1 {
+    margin: 1% 0% 1% 0%;
+}
+
+#introbox_2 {
+
+    margin: 1% 1% 1% 2%;
+}
+
+#introbox_3 {
+    margin: 1% 2% 1% 1%;
+}
+
+
+#introbox_1_picture,
+#introbox_2_picture,
+#introbox_3_picture{
+    overflow: hidden;
+    width: 100%;
+    height: 40%;
+    background-color: #fcfcfc;
+}
+
+#intro_box_1 img, 
+#intro_box_2 img, 
+#intro_box_3 img{
+    width: 100%;
+    height:75%;
 }
