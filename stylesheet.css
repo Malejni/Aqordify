@@ -1,4 +1,6 @@
 /* USE ENGLISH! COMMENT YOUR WORK! Aqordify browser stylesheet */
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
 
 /* Header style */
 
@@ -9,9 +11,9 @@ header {
 }
 
 header img {
-    height: 70%;
-    margin-top: 2%;
-    margin-left: 8%;
+    height: 90%;
+    margin-top: 0.3%;
+    margin-left: 10%;
 }
 
 /* Main Navigation */
@@ -45,7 +47,7 @@ ul#navigation li {
 
     font-size:19px;
 
-    font-weight:bold;
+    font-weight:normal;
 
     margin:0;
 
@@ -56,6 +58,7 @@ ul#navigation li {
     position:relative;
 
     /*border-top:1px solid #c4dbe7;
+
     border-bottom:2px solid #c4dbe7;*/
 
 }
@@ -64,7 +67,7 @@ ul#navigation li a {
 
     padding:10px 25px;
 
-    color:silver;
+    color:white;
 
     text-shadow:0px 1px 1px black;
 
@@ -73,8 +76,11 @@ ul#navigation li a {
     display:inline-block;
 
     /*border-right:1px solid #fff;
+
     border-left:1px solid #C2C2C2;
+
     border-top:1px solid #fff;
+
     background: #f5f5f5;*/
 
      
@@ -209,8 +215,6 @@ ul#navigation ul li {
 
     clear:both;
 
-    /* width:100%; Causes the box to be wider upon hover in the dropdown! */
-
 }
 
 
@@ -232,6 +236,145 @@ body {
     background-color: black;
 }
 
+.body_intro {
+	width: 100%;
+    height: 100%;
+    margin: 0%;
+    background-color: black;
+	overflow: hidden;
+}
+
+
+.login{
+    position: absolute;
+    top: calc(13% - 75px);
+    left: calc(80% - 50px);
+    height: 100px;
+    width: 30%;
+    z-index: 2;
+   }
+
+.login input[type=text]{
+    width: 20%;
+    height: 25%;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'kontrapunkt', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 4px;
+}
+
+.login input[type=password]{
+    width: 20%;
+    height: 25%;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'kontrapunkt', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=button]{
+    width: 20%;
+    height: 30%;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'kontrapunkt', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+    opacity: 0.8;
+}
+
+.login input[type=button]:active{
+    opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+    outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+
+
+#intro_top{
+    text-align: center;
+     margin-top: 2%;
+     margin-bottom: 10%;
+
+}
+
+    .intro_img img{
+        max-height: 30%;
+        height: 30%;
+    }
+
+#intro_bottom{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: "kontrapunkt"
+}
+
+    .introbox_1{
+        background-image: url("img/marble.jpg");
+        height: 10%;
+        width: 30%;
+        float: left;
+        margin-left: 3%;
+    }
+
+    .introbox_2{
+        background-image: url("img/steel.jpg");
+        height: 20%;
+        width: 30%;
+        float: left;
+        margin-left: 2%;
+    }
+
+    .introbox_3{
+        background-image: url("img/gold3.jpg");
+        height: 30%;
+        width: 30%;
+        float: left;
+        margin-left: 2%;
+    }
+
+
+
+
 #wrapper {
   max-width: 100%;
   max-height: 100%;
@@ -251,11 +394,10 @@ font-weight: bold;
 src: url("fonts/Kontrapunkt_Bold.otf") format("opentype");
 }
 
-        #content {
+        #content_front {
             font-family: "Kontrapunkt";
             color: silver;
-            position: relative;
-            height: 100%;
+           text-align: center;
             width: 100%;
             margin: 0;
             background-color: black;
@@ -263,31 +405,53 @@ src: url("fonts/Kontrapunkt_Bold.otf") format("opentype");
 
 
         .front_img img{
-            max-width: 100%;
-            max-height: 50%;
-            padding-left: 10%;
-            padding-right: 10%;
+            display: block;
+            height: 30%;
+            margin-left: auto;
+			margin-right: auto;
         }
+
+        #content_underpage {
+            height: 80%;
+            /*width: 100%;*/
+            padding: 3%;
+            text-align: center;
+        }
+
+        .content_underpage div span{
+         color: gold !important;
+        }
+
+        
 
         .text_box {
             height: 600px;
-            width: 100%;
+            /*width: 100%;*/
             padding-top: 2%;
             padding-left: 2%;
+            text-align: center;
             background-color: black;
+             color: white;
         }
 
-        #content_img img{
+        .content_img img{
             height: 150px;
-            float: center;
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
         }
 
         .text_box img {
             height: 150px;
             display: block;
-            float: center;
+            margin-right: auto;
+	    margin-left: auto;
         }
 
+        .text_box a{
+            color: white;
+        }
+        
         p {
             color: white;
             font-size: 20px;
@@ -304,7 +468,8 @@ src: url("fonts/Kontrapunkt_Bold.otf") format("opentype");
     text-align: center;
     overflow: hidden;
     float: center;        /* <-- style to add margin between content and cleared footer*/
-    margin-bottom: 0%; /* <-- solution: float the abow element (content_bottom) and add a bottom margin*/
+    margin-bottom: 3%; /* <-- solution: float the abow element (content_bottom) and add a bottom margin*/
+    margin-top: 3%;
     background-color: black;
 }
 
@@ -414,24 +579,6 @@ src: url("fonts/Kontrapunkt_Bold.otf") format("opentype");
 .content_bottom_link p:visited {
     color: #da7f18;
 }
-/* kontakta style*/
-
-.bild {
-width: 440px;
-height: 266px;
-border: 0px solid #F4F4F4;
-box-shadow: 1px 1px 6px rgba(0,0,0, 0.5);
-
-}
-
-.kontakt_box {
-width: 300px;
-margin: 50px auto 0 auto;
-padding: 20px;
-border: 15px solid #BAD1BA;
-border-radius: 20px;
-background-color: rgba(255,255,255, 0.5);
-}
 
 /* Footer style */
 
@@ -441,33 +588,53 @@ footer {
     margin: auto 0;
     height: 170px;
     /*overflow: auto;*/ /* Overflow created a scroll list at the bottom of the footer/page. Removing this solved the problem. I recommend we don't use this attribute. */
-    background-image: url("img/alu.jpg");
+    background-image: url(img/marble.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
     padding-top: 1%;
   }
         .copyright {
             text-align: center;
             position: relative;
-            left: 8px;
+            /*left: 8px;*/
             font-size: 10px;
             color: black;
+            font-weight: bold;
+			margin: 0;
+			width: 100%;
+			display: block;
         }
         .footer { 
             text-align: center;
             position: relative;
-            left: 8px;
+            /*left: 8px;*/
             font-size: 10px;
             color: black;
+            font-weight: bold;
+			margin: 0;
         }
         .mail {
             position: relative;
-            left: 42px;
+            /*left: 42px;*/
             font-size: 20px;
             color: black;
+            font-weight: bold;
+			display: block;
+			width: 30%;
+			margin-left: 42px;
         }
+		
+		.mail p {
+			width: 30%;
+			overflow: hidden;
+			margin: 0;
+		}
 
-        a {
+        .mail a {
             text-decoration:none;
             color: black;
+            font-weight: bold;
+			margin: 0;
         }
 
         .ikon {
@@ -475,7 +642,90 @@ footer {
             width: 4%;
         }
 		
-	@media screen and (max-width:799px) {
+		/* Media queries*/
+@media screen and (max-width:969px)
+{
  #wrapper{
-	width:100%;
+	width:100%; 
+}
+
+footer
+{ width:100%;
+ 
+}
+.ikon {
+width: 40%;
+float: none;
+}
+.mail {
+font-size: 10px;
+}
+
+#content_bottom_box_1 {
+    margin: 1% 0% 1% 0%;
+}
+
+#content_bottom_box_2 {
+
+    margin: 1% 1% 1% 2%;
+}
+
+#content_bottom_box_3 {
+    margin: 1% 2% 1% 1%;
+}
+
+
+#content_bottom_box_1_picture,
+#content_bottom_box_2_picture,
+#content_bottom_box_3_picture{
+    overflow: hidden;
+    width: 100%;
+    height: 40%;
+    background-color: #fcfcfc;
+}
+
+#content_bottom_box_1 img, 
+#content_bottom_box_2 img, 
+#content_bottom_box_3 img{
+    width: 100%;
+    height:75%;
+}
+#text_box 
+{
+font-size: 12px;
+}
+.content_img
+{
+opacity:0.1;
+width:100%;
+}
+
+#introbox_1 {
+    margin: 1% 0% 1% 0%;
+}
+
+#introbox_2 {
+
+    margin: 1% 1% 1% 2%;
+}
+
+#introbox_3 {
+    margin: 1% 2% 1% 1%;
+}
+
+
+#introbox_1_picture,
+#introbox_2_picture,
+#introbox_3_picture{
+    overflow: hidden;
+    width: 100%;
+    height: 40%;
+    background-color: #fcfcfc;
+}
+
+#intro_box_1 img, 
+#intro_box_2 img, 
+#intro_box_3 img{
+    width: 100%;
+    height:75%;
 }
