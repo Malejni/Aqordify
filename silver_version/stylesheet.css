@@ -408,7 +408,7 @@ src: url("fonts/Kontrapunkt_Bold.otf") format("opentype");
 			margin-right: auto;
         }
 
-        #content_underpage {
+        #content {
             height: 80%;
             /*width: 100%;*/
             padding: 3%;
