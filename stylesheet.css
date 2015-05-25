@@ -335,7 +335,7 @@ body {
 
 }
 
-    .intro_img img{
+    #intro_top img{
         max-height: 30%;
         height: 30%;
     }
@@ -346,6 +346,11 @@ body {
     margin-bottom: 2%;
     text-align: center;
     font-family: "kontrapunkt"
+}
+
+#intro_bottom a{
+    text-decoration: none;
+    color: black;
 }
 
     .introbox_1{
@@ -592,6 +597,7 @@ footer {
 	background-repeat: no-repeat;
 	background-size: cover;
     padding-top: 1%;
+    overflow: hidden;
   }
         .copyright {
             text-align: center;
