@@ -1,119 +1,81 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-  <title>Aqordify</title>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
 
-<body>
-    <div id="wrapper">
+  <head>
+    <title>Aqordify</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
 
-        <header>
-<!-- A-H -->
-           <a href="index.html"><img src="img/white.png" alt="Aqordo Logo"></a>
+  <body>
     
-               <nav id="nav">
-
-                    <ul id="navigation">
-
-                    <li><a href="#" class="first">Presentation</a>
-
-                            
-                            <!-- DROPDOWN MENU WITH EXAMPLES -->
-
-                            <ul>
-
-                            <li><a href="om_oss.html">Om oss</a></li>
-
-                            <li><a href="historia.html">Historia</a></li>
-
-                            <li><a href="utmarkelser.html">Utmärkelser</a></li>
-                        <!--
-                            <li><a href="#">Utmärkelser&raquo;</a>
-
-                            <ul>
-
-                            <li><a href="#">Business Cards</a></li>
-
-                            <li><a href="#">Brochures</a></li>
-
-                            <li><a href="#">Envelopes</a></li>
-
-                            <li><a href="#">Flyers</a></li>
-
-                            </ul>                 
-
-                            </li>                 
-
-                            <li><a href="#">Wordpress</a></li>
-                            -->
-                            </ul>
-
-                            </li>
-                            
-
-                            <li><a href="#">Produkter <!--&raquo;--></a>
-
-                                <!-- MORE DROPDOWN MENU EXAMPLES TO USE -->
-                                
-                            <ul>
-
-                                <li><a href="app.html">Aqordify app</a></li>
-
-                                <li><a href="#">Aqordo memory</a></li>
-
-                            </ul>             
-
-                            </li>
-                        
-
-                        <li><a href="tjanster.html">Tjänster</a></li>
-
-                        <li><a href="kontakta.html" class="last">Kontakta</a></li>
-
-                        </ul>
-
-            </nav>
-
-        </header>
-
-
-<!-- Malena -->
-
-
-        <div id="content">
-
-            <!--<div class="content_img"><img src="img/notstall_aqordo.jgp" alt="bild"></div>
-            -->
-         </div>
-
-            <div class="text_box">
-
-            <h2>Utmärkelser</h2>
-             <p>Konceptet vann ett förstapris i delmoment 1 i tävlingen Venture Cup Syd 2010.</p>
-            </div>
-                     
-       
-
-        <footer>
-        <!-- Elin -->
-            <p class="copyright"> ©Aqordo</p>
-          <p class="footer">Uppdaterad: 2015-05-16</p>
-            <p class="mail">Kontakta oss:
-            <a href="mailto:aqordo@gmail.com">aqordo@gmail.com</a></p>
+    <div id="wrapper">
+  
+      <header>
+        
+        <a href="index.html"><img src="img/white.png" alt="Aqordo Logo"></a> <!-- Logo -->
+        
+        <!-- Main navigation. A dropdown menu purely in CSS3, no JavaScript. The HTML-side of the menu
+        consist of several un-numbered lists within a main-list who's visibility is controlled in the
+        stylesheet. -->
+        <nav id="nav">
+          <ul id="navigation">
+            <!-- DROPDOWN MENU WITH EXAMPLES! The examples are to provide code and examples of how to add
+              more to the dropdown menu if desired. -->
+            <li><a href="#" class="first">Presentation</a> <!-- First menu option qith dropdown options -->
+              <ul>
+                <li><a href="om_oss.html">Om oss</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="utmarkelser.html">Utmärkelser</a></li>
+                <!--<li><a href="#">Utmärkelser&raquo;</a> ((Not featured option))
+                  <ul>
+                    <li><a href="#">Business Cards</a></li>
+                    <li><a href="#">Brochures</a></li>
+                    <li><a href="#">Envelopes</a></li>
+                    <li><a href="#">Flyers</a></li>
+                  </ul> -->
+              </ul>
+            </li>
             
+            <li><a href="#">Produkter</a> <!-- Second menu option -->
+              <ul>
+                <li><a href="app.html">Aqordify app</a></li>
+                <li><a href="#">Aqordo memory</a></li>
+              </ul>             
+            </li>
+  
+            <li><a href="tjanster.html">Tjänster</a></li> <!-- Third menu option -->
             
-                <a class="ikon" href="http://facebook.com/pages/aqordo/258161147536017?"><img src="img/fb.png" style="width:50px; height:50px"></a>
-                <a class="ikon" href="http://twitter.com"><img src="img/twitter.png" style="width:50px; height:50px"></a>
-                <a class="ikon" href="http://randomblogg.com"><img src="img/rss.png" style="width:50px; height:50px"></a>
-                <a class="ikon" href="http://youtube.com"><img src="img/youtube.png" style="width:50px; height:50px"></a>
-                <a class="ikon" href="http://instagram.com"><img src="img/instagram.png" style="width:50px; height:50px"></a>
-                
-        </footer>
+            <li><a href="kontakta.html" class="last">Kontakta</a></li> <!-- Fourth menu option -->
+            
+          </ul> <!-- END OF NAVIGATION BAR OPTIONS -->
+        </nav> <!-- END OF NAVIGATION BAR -->
+      </header> <!-- END OF HEADER -->
+
+      <div id="content">
+        <!--<div class="content_img"><img src="img/notstall_aqordo.jgp" alt="bild"></div>-->
+      </div>
+      
+      <div class="text_box">
+        <h2>Utmärkelser</h2>
+        <p>Konceptet vann ett förstapris i delmoment 1 i tävlingen Venture Cup Syd 2010.</p>
+      </div>
+      
+      <footer>
+        <p class="copyright"> ©Aqordo</p>
+        <p class="footer">Uppdaterad: 2015-05-16</p>
+        <p class="mail">Kontakta oss:
+        <a href="mailto:aqordo@gmail.com">aqordo@gmail.com</a></p>
+        <a class="ikon" href="http://facebook.com/pages/aqordo/258161147536017?"><img src="img/fb.png" style="width:50px; height:50px"></a>
+        <a class="ikon" href="http://twitter.com"><img src="img/twitter.png" style="width:50px; height:50px"></a>
+        <a class="ikon" href="http://randomblogg.com"><img src="img/rss.png" style="width:50px; height:50px"></a>
+        <a class="ikon" href="http://youtube.com"><img src="img/youtube.png" style="width:50px; height:50px"></a>
+        <a class="ikon" href="http://instagram.com"><img src="img/instagram.png" style="width:50px; height:50px"></a>
+      </footer>
 
     </div>
-</body>
+  </body>
 
 </html>
