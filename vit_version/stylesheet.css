@@ -322,41 +322,37 @@ src: url("fonts/Kontrapunkt_Bold.otf") format("opentype");
 			margin-right: auto;
         }
 
-        #content_underpage {
-            height: 80%;
+          #content_underpage {
+            height: 60%;
             /*width: 100%;*/
             padding: 3%;
             text-align: center;
         }
 
-        .content_underpage div span{
-         color: gold !important;
-        }
-
         
-
         .text_box {
             height: 600px;
             /*width: 100%;*/
             padding-top: 2%;
-            padding-left: 2%;
+            padding-left: 10%;
+            padding-right: 15%;
             text-align: center;
             background-color: black;
              color: white;
         }
 
         .content_img img{
-            height: 150px;
-			display: block;
-			margin-right: auto;
-			margin-left: auto;
+            height: 400px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
         }
 
         .text_box img {
-            height: 150px;
+            height: 400px;
             display: block;
             margin-right: auto;
-	    margin-left: auto;
+            margin-left: auto;
         }
 
         .text_box a{
