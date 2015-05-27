@@ -233,145 +233,6 @@ body {
     background-color: black;
 }
 
-.body_intro {
-	width: 100%;
-    height: 100%;
-    margin: 0%;
-    background-color: black;
-	overflow: hidden;
-}
-
-
-.login{
-    position: absolute;
-    top: calc(13% - 75px);
-    left: calc(80% - 50px);
-    height: 100px;
-    width: 30%;
-    z-index: 2;
-   }
-
-.login input[type=text]{
-    width: 20%;
-    height: 25%;
-    background: transparent;
-    border: 1px solid rgba(255,255,255,0.6);
-    border-radius: 2px;
-    color: #fff;
-    font-family: 'kontrapunkt', sans-serif;
-    font-size: 10px;
-    font-weight: 400;
-    padding: 4px;
-}
-
-.login input[type=password]{
-    width: 20%;
-    height: 25%;
-    background: transparent;
-    border: 1px solid rgba(255,255,255,0.6);
-    border-radius: 2px;
-    color: #fff;
-    font-family: 'kontrapunkt', sans-serif;
-    font-size: 10px;
-    font-weight: 400;
-    padding: 4px;
-    margin-top: 10px;
-}
-
-.login input[type=button]{
-    width: 20%;
-    height: 30%;
-    background: #fff;
-    border: 1px solid #fff;
-    cursor: pointer;
-    border-radius: 2px;
-    color: #a18d6c;
-    font-family: 'kontrapunkt', sans-serif;
-    font-size: 10px;
-    font-weight: 400;
-    padding: 6px;
-    margin-top: 10px;
-}
-
-.login input[type=button]:hover{
-    opacity: 0.8;
-}
-
-.login input[type=button]:active{
-    opacity: 0.6;
-}
-
-.login input[type=text]:focus{
-    outline: none;
-    border: 1px solid rgba(255,255,255,0.9);
-}
-
-.login input[type=password]:focus{
-    outline: none;
-    border: 1px solid rgba(255,255,255,0.9);
-}
-
-.login input[type=button]:focus{
-    outline: none;
-}
-
-::-webkit-input-placeholder{
-   color: rgba(255,255,255,0.6);
-}
-
-::-moz-input-placeholder{
-   color: rgba(255,255,255,0.6);
-}
-
-
-
-#intro_top{
-    text-align: center;
-     margin-top: 2%;
-     margin-bottom: 10%;
-
-}
-
-    .intro_img img{
-        max-height: 30%;
-        height: 30%;
-    }
-
-#intro_bottom{
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    text-align: center;
-    font-family: "kontrapunkt"
-}
-
-    .introbox_1{
-        background-image: url("img/marble.jpg");
-        height: 10%;
-        width: 30%;
-        float: left;
-        margin-left: 3%;
-    }
-
-    .introbox_2{
-        background-image: url("img/steel.jpg");
-        height: 20%;
-        width: 30%;
-        float: left;
-        margin-left: 2%;
-    }
-
-    .introbox_3{
-        background-image: url("img/gold3.jpg");
-        height: 30%;
-        width: 30%;
-        float: left;
-        margin-left: 2%;
-    }
-
-
-
-
 #wrapper {
   max-width: 100%;
   max-height: 100%;
@@ -391,6 +252,159 @@ font-weight: bold;
 src: url("fonts/Kontrapunkt_Bold.otf") format("opentype");
 }
 
+p {
+            color: white;
+            font-size: 20px;
+            float: center;
+        }
+
+
+    /* Intro-page style */
+
+        .body_intro {
+            width: 100%;
+            height: 100%;
+            margin: 0%;
+            background-color: black;
+            overflow: hidden;
+        }
+
+            /* Login style */
+            .login{
+                position: absolute;
+                top: calc(13% - 75px);
+                left: calc(80% - 50px);
+                height: 100px;
+                width: 30%;
+                z-index: 2;
+               }
+
+            /* Usernamne box style */   
+            .login input[type=text]{
+                width: 20%;
+                height: 25%;
+                background: transparent;
+                border: 1px solid rgba(255,255,255,0.6);
+                border-radius: 2px;
+                color: #fff;
+                font-family: 'kontrapunkt', sans-serif;
+                font-size: 10px;
+                font-weight: 400;
+                padding: 4px;
+            }
+
+            /* Password box style */
+            .login input[type=password]{
+                width: 20%;
+                height: 25%;
+                background: transparent;
+                border: 1px solid rgba(255,255,255,0.6);
+                border-radius: 2px;
+                color: #fff;
+                font-family: 'kontrapunkt', sans-serif;
+                font-size: 10px;
+                font-weight: 400;
+                padding: 4px;
+                margin-top: 10px;
+            }
+
+            /* Login button box style */
+            .login input[type=button]{
+                width: 20%;
+                height: 30%;
+                background: #fff;
+                border: 1px solid #fff;
+                cursor: pointer;
+                border-radius: 2px;
+                color: #a18d6c;
+                font-family: 'kontrapunkt', sans-serif;
+                font-size: 10px;
+                font-weight: 400;
+                padding: 6px;
+                margin-top: 10px;
+            }
+
+            .login input[type=button]:hover{
+                opacity: 0.8;
+            }
+
+            .login input[type=button]:active{
+                opacity: 0.6;
+            }
+
+            .login input[type=text]:focus{
+                outline: none;
+                border: 1px solid rgba(255,255,255,0.9);
+            }
+
+            .login input[type=password]:focus{
+                outline: none;
+                border: 1px solid rgba(255,255,255,0.9);
+            }
+
+            .login input[type=button]:focus{
+                outline: none;
+            }
+
+            ::-webkit-input-placeholder{
+               color: rgba(255,255,255,0.6);
+            }
+
+            ::-moz-input-placeholder{
+               color: rgba(255,255,255,0.6);
+            }
+
+        
+        /* Intro-page top style */    
+        #intro_top{
+            text-align: center;
+             margin-top: 2%;
+             margin-bottom: 10%;
+
+        }
+
+            .intro_img img{
+                max-height: 30%;
+                height: 30%;
+            }
+
+        /* Intro-page bottom style */    
+        #intro_bottom {
+            width: 100%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            text-align: center;
+            font-family: "kontrapunkt"
+        }
+
+            /* Intro-page bottom box styles */
+            .introbox_1{
+                background-image: url("img/marble.jpg");
+                height: 10%;
+                width: 30%;
+                float: left;
+                margin-left: 3%;
+            }
+
+            .introbox_2{
+                background-image: url("img/steel.jpg");
+                height: 20%;
+                width: 30%;
+                float: left;
+                margin-left: 2%;
+            }
+
+            .introbox_3{
+                background-image: url("img/gold3.jpg");
+                height: 30%;
+                width: 30%;
+                float: left;
+                margin-left: 2%;
+            }
+
+
+      /* Index style */
+
         #content_front {
             font-family: "Kontrapunkt";
             color: silver;
@@ -405,8 +419,133 @@ src: url("fonts/Kontrapunkt_Bold.otf") format("opentype");
             display: block;
             height: 30%;
             margin-left: auto;
-			margin-right: auto;
+            margin-right: auto;
         }
+
+        /*Styles for bottom box content on Index page*/
+
+            #content_bottom {
+                width: 80%;
+                height:320px;
+                text-align: center;
+                padding: 0% 0% 0% 20%;
+                text-align: center;
+                overflow: hidden;
+                float: center;        /* <-- style to add margin between content and cleared footer*/
+                margin-bottom: 3%; /* <-- solution: float the abow element (content_bottom) and add a bottom margin*/
+                margin-top: 3%;
+                background-color: black;
+            }
+
+            /*Styles for all content_boxes*/
+
+            #content_bottom_box_1, #content_bottom_box_2, #content_bottom_box_3, #content_bottom_box_4{
+                background-color: #fcfcfc;
+                padding: 1%;
+                width: 21.5%;
+                height: 270px;
+                float: left;
+                position: relative;
+                -webkit-box-shadow: 1px 1px 16px 0 #575757;
+                -khtml-box-shadow: 1px 1px 16px 0 #575757;
+                -moz-box-shadow: 1px 1px 16px 0 #575757;
+                box-shadow: 1px 1px 16px 0 #575757;
+                
+                -webkit-box-shadow: 1px 1px 16px 0px rgba(50, 50, 50, 0.75);
+                -khtml-box-shadow: 1px 1px 16px 0px rgba(50, 50, 50, 0.75);
+                -moz-box-shadow: 1px 1px 16px 0px rgba(50, 50, 50, 0.75);
+                box-shadow: 1px 1px 16px 0px rgba(50, 50, 50, 0.75);
+            }
+
+
+            #content_bottom_box_1:hover, #content_bottom_box_2:hover, #content_bottom_box_3:hover, #content_bottom_box_4:hover {
+                -webkit-box-shadow: 1px 1px 16px 1px #080808;
+                -khtml-box-shadow: 1px 1px 16px 1px #080808;
+                -moz-box-shadow: 1px 1px 16px 1px #080808;
+                box-shadow: 1px 1px 16px 1px #080808;
+            }
+
+            /*Styles for individual boxes*/
+
+            #content_bottom_box_1 {
+                margin: 1% 0% 1% 0%;
+            }
+
+            #content_bottom_box_2 {
+
+                margin: 1% 1% 1% 2%;
+            }
+
+            #content_bottom_box_3 {
+                margin: 1% 2% 1% 1%;
+            }
+
+
+            #content_bottom_box_1_picture,
+            #content_bottom_box_2_picture,
+            #content_bottom_box_3_picture{
+                overflow: hidden;
+                width: 100%;
+                height: 180px;
+                background-color: #fcfcfc;
+            }
+
+            #content_bottom_box_1 img, 
+            #content_bottom_box_2 img, 
+            #content_bottom_box_3 img{
+                width: 100%;
+                height:250px;
+            }
+
+            /*Styles for information-box*/
+            .content_bottom_box_contentinfo {
+                overflow: hidden;
+                text-align: center;
+                width: 100%;
+                height: 60px;
+                background-color: #fcfcfc;
+            }
+
+            .content_bottom_link {
+                text-align: center;
+                width: 100%;
+                height: 30px;
+            }
+
+
+            .content_bottom_box_contentinfo p {
+                color: #222222;
+                margin: 0%;
+                padding: 7px;
+                text-align: center;
+                font-family: 'kontrapunkt', Arial, sans-serif;
+                font-weight: normal;
+                font-size:.85em !important;
+                -webkit-font-smoothing: antialiased !important;
+            }
+
+            /*Styles for bottom_box links*/
+            .content_bottom_link p {
+                font-family: 'Kontrapunkt_Bold', arial, sans-serif;
+                text-transform: uppercase;
+                font-size: .85em;
+                font-weight: 400;
+                color: #222222;
+                text-decoration: underline;
+                text-align: center;
+
+            }
+
+            .content_bottom_link p:hover {
+                text-decoration: none;
+            }
+
+            .content_bottom_link p:visited {
+                color: #da7f18;
+            }
+            
+
+    /* Underpage style */    
 
         #content_underpage {
             height: 60%;
@@ -445,133 +584,8 @@ src: url("fonts/Kontrapunkt_Bold.otf") format("opentype");
             color: white;
         }
         
-        p {
-            color: white;
-            font-size: 20px;
-            float: center;
-        }
+       
 
-/*Styles for bottom-box content*/
-
-#content_bottom {
-    width: 80%;
-    height:320px;
-    text-align: center;
-    padding: 0% 0% 0% 20%;
-    text-align: center;
-    overflow: hidden;
-    float: center;        /* <-- style to add margin between content and cleared footer*/
-    margin-bottom: 3%; /* <-- solution: float the abow element (content_bottom) and add a bottom margin*/
-    margin-top: 3%;
-    background-color: black;
-}
-
-/*Styles for all content_boxes*/
-
-#content_bottom_box_1, #content_bottom_box_2, #content_bottom_box_3, #content_bottom_box_4{
-    background-color: #fcfcfc;
-    padding: 1%;
-    width: 21.5%;
-    height: 270px;
-    float: left;
-    position: relative;
-    -webkit-box-shadow: 1px 1px 16px 0 #575757;
-    -khtml-box-shadow: 1px 1px 16px 0 #575757;
-    -moz-box-shadow: 1px 1px 16px 0 #575757;
-    box-shadow: 1px 1px 16px 0 #575757;
-    
-    -webkit-box-shadow: 1px 1px 16px 0px rgba(50, 50, 50, 0.75);
-    -khtml-box-shadow: 1px 1px 16px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow: 1px 1px 16px 0px rgba(50, 50, 50, 0.75);
-    box-shadow: 1px 1px 16px 0px rgba(50, 50, 50, 0.75);
-}
-
-
-#content_bottom_box_1:hover, #content_bottom_box_2:hover, #content_bottom_box_3:hover, #content_bottom_box_4:hover {
-    -webkit-box-shadow: 1px 1px 16px 1px #080808;
-    -khtml-box-shadow: 1px 1px 16px 1px #080808;
-    -moz-box-shadow: 1px 1px 16px 1px #080808;
-    box-shadow: 1px 1px 16px 1px #080808;
-}
-
-/*Styles for individual boxes*/
-
-#content_bottom_box_1 {
-    margin: 1% 0% 1% 0%;
-}
-
-#content_bottom_box_2 {
-
-    margin: 1% 1% 1% 2%;
-}
-
-#content_bottom_box_3 {
-    margin: 1% 2% 1% 1%;
-}
-
-
-#content_bottom_box_1_picture,
-#content_bottom_box_2_picture,
-#content_bottom_box_3_picture{
-    overflow: hidden;
-    width: 100%;
-    height: 180px;
-    background-color: #fcfcfc;
-}
-
-#content_bottom_box_1 img, 
-#content_bottom_box_2 img, 
-#content_bottom_box_3 img{
-    width: 100%;
-    height:250px;
-}
-
-/*Styles for information-box*/
-.content_bottom_box_contentinfo {
-    overflow: hidden;
-    text-align: center;
-    width: 100%;
-    height: 60px;
-    background-color: #fcfcfc;
-}
-
-.content_bottom_link {
-    text-align: center;
-    width: 100%;
-    height: 30px;
-}
-
-
-.content_bottom_box_contentinfo p {
-    color: #222222;
-    margin: 0%;
-    padding: 7px;
-    text-align: center;
-    font-family: 'kontrapunkt', Arial, sans-serif;
-    font-weight: normal;
-    font-size:.85em !important;
-    -webkit-font-smoothing: antialiased !important;
-}
-
-/*Styles for bottom_box links*/
-.content_bottom_link p {
-    font-family: 'Kontrapunkt_Bold', arial, sans-serif;
-    text-transform: uppercase;
-    font-size: .85em;
-    font-weight: 400;
-    color: #222222;
-    text-decoration: underline;
-    text-align: center;
-
-}
-
-.content_bottom_link p:hover {
-    text-decoration: none;
-}
-
-.content_bottom_link p:visited {
-    color: #da7f18;
-}
 
 /* Footer style */
 
